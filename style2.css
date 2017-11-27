@@ -1,0 +1,79 @@
+
+/
+cite {
+    font-style: bold; /*style given to citation*/
+}
+img {
+    display: inline-block;/* display property given to an image*/
+}
+
+* {
+    box-sizing: border-box;/* To include padding and border in the total width and
+							height of the elements.*/
+}
+.header {			/* header style*/
+    border: none;
+    padding: 5px;
+}
+.menu {        			/* style given to menu */
+    width: 15%;
+    float: left;
+    padding: 30px;
+    border: 2px solid black;
+	Height: 175px;
+	margin: 15px;
+	
+}
+
+.main {
+    width: 65%;
+    float: left;
+    padding: 15px;
+    border: none;
+	
+	
+	
+	#nav {
+    list-style-type: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    width: 100px;
+	float: left;
+	
+		} 
+
+ #nav li{
+	 margin: 0;
+ }
+ 
+ #nav a {
+	display: block;
+	padding: 0.5em 15px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #F2F2F2;
+ }
+	
+}
+
+
+ul#navlist { 
+padding:0;
+margin:0;
+list-style-type: none;
+
+}
+
+ul#navlist {
+	padding-left: 0;
+	margin-left: 0;
+	
+}
+
+ul#navlist li{
+	display: inline;
+	float: right;
+}
+ul#navlist a{
+	margin-left:8px;
+}
