@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="utf-8">
+<title>Assignment 1</title>
+<link rel="stylesheet" href="style1.css">
+
+<!-- Function of drag and drop on webpage  -->
+<script>
+function allowDrop(ev) {
+    ev.preventDefault();
+}
+
+function drag(ev) {
+    ev.dataTransfer.setData("text", ev.target.id);
+}
+
+function drop(ev) {
+    ev.preventDefault();
+    var data = ev.dataTransfer.getData("text");
+    ev.target.appendChild(document.getElementById(data));
+}
+</script>
+<style> <!-- Styling for heading, shown in boxes  -->
+h1 { 
+	font-size: 15px; 
+	text-align: center;
+	}
+h2 { 
+	font-size: 20px;
+	text-align: center;
+	}
+h3 { font-size: 40px; 
+	text-align: left;
+	}
+h4 { font-size: 30px;
+	margin-top: 0px;}
+
+</style>
+
+
+</head>
+<body>
+
+<!-- Div element for Photo 2 at the right side of page. -->
+<div id="cf">
+  <img class="bottom" src="panda2.png" />
+  <img class="top" src="panda1.png" />
+</div>	 
+	 	 
+	 
+<!-- Four div elements for the boxes -->
+
+<div id="box1">
+<h1 style="color:White;">TextA</h1>
+
+</div>
+	 
+<div id="box2">
+<h3  style="color:Black;">TextB</h3>
+
+</div>
+
+<div id="box3">
+<h2 style="color:White;">TextC</h2>
+
+</div>
+
+<div id= "box4">
+<h4 style="color:Red;">TextD</h4>
+
+</div>
+
+<!--Three div elements for drag and drop -->
+
+<div id="div1" ondrop="drop(event)" ondragover="allowDrop(event)">
+  <img src="panda.png" draggable="true" ondragstart="drag(event)" id="drag1" width="120" height="150">
+</div>
+
+<div id="div2" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+<p>"Drag & drop"</p>
+</div>
+<div id="div3" ondrop="drop(event)" ondragover="allowDrop(event)">
+<p>"Drag & drop"</p>
+</div>
+
+
+
+</body>
+</html>

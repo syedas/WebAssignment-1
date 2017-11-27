@@ -1,0 +1,114 @@
+
+#box1 {       
+		/* show properties of the box1*/	
+	width: 150px;
+	height: 150px;
+	background-color: blue;
+	text-align: top;
+	text-align: justify;
+	float: left;
+	
+	
+}
+
+#box2 {
+						/* show properties of the box2 */
+	
+	display: inline-block;	
+	width: 150px;
+	height: 150px;
+	background-color: yellow;
+	display: inline-block;	
+	text-align: middle;
+	text-align: left;
+	margin-left: 250px;
+	
+	
+	
+}
+
+#box3 {			/* show properties of the box3 */
+		
+	display: inline-block;	
+	width: 150px;
+	height: 150px;
+	background-color: #02AF34;	
+	border: 1px solid black;
+	margin-left: 150px;
+	
+	
+}
+	
+
+#box4 {			/* show properties of the box4 */
+	position: relative;
+	width: 400px;
+	height: 150px;
+	background-color: gray;
+	margin-left: 375px;
+	text-align: bottom;
+	text-align: justify;
+	border: 2px solid red;
+	top: 50px;
+}
+
+}
+#cf {
+  position:relative;
+  height:281px;
+  width:450px;
+  margin:0 auto;
+}
+
+#cf img {
+  position:absolute;
+  right:0;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+
+#cf img.top:hover {
+  opacity:0;
+}
+/* Proerties for div elements*/
+ 
+#div1 {				
+
+    position: relative;
+	float: left;
+	width: 150px;
+    height: 150px;
+    border: 1px solid black;
+	bottom: 100px;
+
+}
+
+#div2 {
+	
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin-left: 175px;
+	border: 2px solid green;
+	top: 80px;
+	text-align: justify;
+}
+
+#div3 {
+	
+	position: relative;
+	width: 150px;
+	height: 150px;
+	margin-left: 775px;
+	border: 2px solid black;
+	bottom: 73px;
+	text-align: justify;
+	
+	
+}
+
+
+
+
